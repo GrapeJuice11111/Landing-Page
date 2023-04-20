@@ -1,6 +1,6 @@
 
-{
-border: 2px solid red;
+*{
+border: 2px solid #3882F6 ;
 }
 
 
@@ -8,7 +8,7 @@ border: 2px solid red;
 body{
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: transparent;
 }
 
 
@@ -112,4 +112,33 @@ button{
 p{
     color:#e5e7eb;
     font-size: 18px;
+}
+
+
+.flask{
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    align-items: center;
+}
+
+.lonely{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.whole{
+    background-color: white;
+}
+
+.whole p{
+    color: black;
+}
+
+.context{
+    width: 200px;
+    align-self: center;
 }
