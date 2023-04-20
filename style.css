@@ -198,3 +198,14 @@ p{
     color: white;
 }
 
+footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer{
+    font-size: 18px;
+    color: white;
+}
